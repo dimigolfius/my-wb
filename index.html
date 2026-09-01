@@ -106,14 +106,14 @@
 
   <body>
     <div class="app">
-      <h1>Hi person</h1>
-      <p class="subtitle">How are you?</p>
+      <h1>Yo, Human! 👽</h1>
+      <p class="subtitle">On a scale of pizza to chaos, how's it going?</p>
 
       <div class="button-stack">
-        <button id="dood" class="b1">Good</button>
-        <button id="bleh" class="b1">Eh</button>
-        <button id="gad" class="b1">Bad</button>
-        <button id="dna" class="b1">Do not answer</button>
+        <button id="dood" class="b1">🔥 Living My Best Life</button>
+        <button id="bleh" class="b1">😐 Meh</button>
+        <button id="gad" class="b1">💀 Existential Dread</button>
+        <button id="dna" class="b1">🤐 None of Your Business</button>
 
       </div>
       
@@ -129,7 +129,7 @@
     </div>
 
     <script>
-      console.log("please fuck of")
+      console.log("\n👀 Congrats on opening the console, inspector! Want a cookie?");
       const buttons = document.querySelectorAll(".b1");
       const button = document.getElementById("dood");
       const button2 = document.getElementById("bleh");
@@ -151,19 +151,19 @@
           buttonItem.disabled = true;
 
           if (buttonItem === button) {
-            ma.textContent = "I am as happy as you are!";
+            ma.textContent = "POG! We vibing together now! 🎉";
           }
           if (buttonItem === button2) {
-            ma2.textContent = "Ok still a little good...";
+            ma2.textContent = "Meh is a vibe, I guess we're both confused together 🤷";
           }
           if (buttonItem === button3) {
-            ma3.textContent = "I think your day will get better.";
+            ma3.textContent = "Yikes. Want a virtual hug? Or a meme? Memes fix everything ✨";
           }
         });
       });
 
       button4.addEventListener("click", function () {
-        ma4.textContent = "ok";
+        ma4.textContent = "I RESPECT THE SILENCE. You're too cool for words anyway 😎";
         buttons.forEach((btn) => {
           btn.disabled = true;
         });
